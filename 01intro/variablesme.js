@@ -1,6 +1,12 @@
 "use strict";
 exports.__esModule = true;
 var greetings = "Hello Fede";
-var mynum = 6;
 greetings.toLowerCase();
 console.log(greetings);
+//number
+var userId;
+userId = 3232213;
+userId.toFixed();
+// userId = "sdf"
+// boolean
+var isLoggedIn = false;
