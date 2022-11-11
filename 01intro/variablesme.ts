@@ -14,6 +14,12 @@ userId.toFixed()
 
 let isLoggedIn: boolean = false
 
+let hero: string;
 
+function getHero() {
+    return "thor"
+}
+
+hero = getHero()
 
 export {}
