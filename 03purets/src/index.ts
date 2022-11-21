@@ -10,7 +10,7 @@
 
 class User {
 
-    private _courseCount = 1
+    protected _courseCount = 1
 
     readonly city: string = "Jaipur"
     constructor(
@@ -38,6 +38,13 @@ class User {
             throw new Error('Course Count should be more than 1')
         }
         this._courseCount = courseNum
+    }
+}
+
+class SubUser extends User {
+    isFamily: boolean = true
+    changeCourseCount(){
+        this._courseCount = 4
     }
 }
 
