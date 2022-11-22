@@ -14,4 +14,13 @@ function identityThree(val) {
 function identityFour(val) {
     return val;
 }
-identityFour("", 2);
+// identityFour<Bootle>("", 2)
+function getSearchProducts(products) {
+    // do some database operations
+    const myIndex = 3;
+    return products[myIndex];
+}
+const getMoreSearchProducts = (products) => {
+    const myIndex = 4;
+    return products[myIndex];
+};
